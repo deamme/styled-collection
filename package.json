@@ -1,0 +1,37 @@
+{
+  "name": "styled-collection",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "https://github.com/deamme/styled-collection.git",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "dependencies": {
+    "grid-styled": "^4.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-spring": "^5.5.1",
+    "styled-components": "^3.2.5",
+    "styled-system": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-styled-components": "^1.5.1",
+    "docz": "^0.8.0",
+    "eslint": "^4.10.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.14.0"
+  }
+}
