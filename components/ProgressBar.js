@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 import { Spring } from 'react-spring'
 import AnimatedBox from './AnimatedBox'
