@@ -1,0 +1,23 @@
+---
+name: Button
+---
+
+import { Playground, PropsTable } from 'docz'
+import Button from "../components/Button"
+import Text from "../components/Text"
+
+# Buttons
+All kinds of buttons based on `Button` and `Text` components.
+
+## #1 Example
+<Playground>
+  <Button
+    border="2px #E1E4E8 solid"
+    borderRadius="6px"
+    width="120px"
+    bg="white"
+    onClick={() => alert('Hello there!')}
+  >
+    <Text textAlign="center" color="#0A1F44" fontWeight="500">Click me!</Text>
+  </Button>
+</Playground>
