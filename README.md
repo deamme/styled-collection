@@ -1,5 +1,5 @@
 # Styled Collection
-A collection of React components that uses styled-components and react-spring.
+A collection of React components that uses `styled-components` with `styled-system` and `react-spring`.
 
 ## Commands
 ### Linting
