@@ -20,7 +20,7 @@
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "babel-plugin-styled-components": "^1.5.1",
-    "docz": "^0.8.0",
+    "docz": "^0.11.2",
     "eslint": "^4.10.0",
     "eslint-config-prettier": "^2.7.0",
     "eslint-config-standard": "^10.2.1",
