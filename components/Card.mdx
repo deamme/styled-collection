@@ -11,7 +11,7 @@ import Text from "./Text"
 
 ## Default
 <Playground>
-  <Card p={3}>
+  <Card p={3} elevation={2} borderRadius="6px">
     <Text textAlign="center" fontWeight="500">Hello world!</Text>
   </Card>
 </Playground>
@@ -21,6 +21,8 @@ import Text from "./Text"
   <Card
     width={200}
     height={200}
+    elevation={2}
+    borderRadius="6px"
     display="flex"
     alignItems="center"
     justifyContent="center"
@@ -34,6 +36,8 @@ import Text from "./Text"
   <Card
     width={200}
     height={100}
+    elevation={2}
+    borderRadius="6px"
     display="flex"
     alignItems="center"
     justifyContent="center"
@@ -43,3 +47,11 @@ import Text from "./Text"
   </Card>
 </Playground>
 
+## Elevation
+<Playground>
+  <Card height="100px" width="100%" />
+  <Card height="100px" width="100%" mt={3} elevation={1} />
+  <Card height="100px" width="100%" mt={3} elevation={2} />
+  <Card height="100px" width="100%" mt={3} elevation={3} />
+  <Card height="100px" width="100%" mt={3} elevation={4} />
+</Playground>
