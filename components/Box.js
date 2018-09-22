@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   height,
   width,
@@ -12,8 +12,8 @@ import {
   alignItems,
   justifyContent,
   borders,
-  borderRadius,
-} from 'styled-system'
+  borderRadius
+} from 'styled-system';
 
 export default styled.div`
   ${height}
@@ -30,4 +30,5 @@ export default styled.div`
   ${borders}
   ${borderRadius}
   ${({ cursor }) => cursor && `cursor: ${cursor}`};
-`
+  ${({ boxShadow }) => boxShadow && `box-shadow: ${boxShadow}`};
+`;

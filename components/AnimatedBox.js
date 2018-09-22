@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { animated } from 'react-spring'
+import styled from 'styled-components';
+import { animated } from 'react-spring';
 import {
   height,
   width,
@@ -13,7 +13,8 @@ import {
   alignItems,
   justifyContent,
   borders,
-} from 'styled-system'
+  borderRadius
+} from 'styled-system';
 
 export default styled(animated.div)`
   ${height}
@@ -28,4 +29,7 @@ export default styled(animated.div)`
   ${alignItems}
   ${justifyContent}
   ${borders}
-`
+  ${borderRadius}
+  ${({ cursor }) => cursor && `cursor: ${cursor}`};
+  ${({ boxShadow }) => boxShadow && `box-shadow: ${boxShadow}`};
+`;
