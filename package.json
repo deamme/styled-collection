@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "docz:dev": "docz dev",
+    "dev": "docz dev",
     "build": "docz build",
     "start": "cd .docz/dist && serve"
   },
