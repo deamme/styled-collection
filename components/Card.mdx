@@ -5,6 +5,7 @@ name: Card
 import { Playground, PropsTable } from 'docz'
 import Card from "./Card"
 import Text from "./Text"
+import Button from "./Button"
 
 # Card
 <PropsTable of={Card} />
@@ -55,3 +56,23 @@ import Text from "./Text"
   <Card height="100px" width="100%" mt={3} elevation={3} />
   <Card height="100px" width="100%" mt={3} elevation={4} />
 </Playground>
+
+## Action Card
+<Playground>
+  <Card width="336px" borderRadius="6px" p={4} elevation={3}>
+    <Text color="#0A1F44" fontWeight="500" fontSize="20px">Card Heading</Text>
+    <Text color="#8A94A6" fontWeight="500" fontSize="14px">A small text description for the card followed by a call to action button.</Text>
+    <Button
+      mt={3}
+      border="none"
+      borderRadius="3rem"
+      px="2rem"
+      py=".75rem"
+      bg="#0C66FF"
+      onClick={() => alert('Hello there!')}
+    >
+      <Text textAlign="center" color="white" fontWeight="500">Action</Text>
+    </Button>
+  </Card>
+</Playground>
+
