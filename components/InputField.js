@@ -12,7 +12,8 @@ import {
   alignItems,
   justifyContent,
   borders,
-  borderRadius
+  borderRadius,
+  fontSize
 } from 'styled-system';
 
 export default styled.input`
@@ -29,6 +30,11 @@ export default styled.input`
   ${justifyContent}
   ${borders}
   ${borderRadius}
+  ${fontSize}
   ${({ cursor }) => cursor && `cursor: ${cursor}`};
   ${({ boxShadow }) => boxShadow && `box-shadow: ${boxShadow}`};
-`;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Helvetica, Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  &:focus {
+    border: 2px #007FFF solid
+  }
+  `;
